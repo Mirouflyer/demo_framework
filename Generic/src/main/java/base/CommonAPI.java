@@ -13,7 +13,7 @@ public class CommonAPI {
 
     @BeforeMethod
     public void setUp(){
-        System.setProperty("webdriver.chrome.drive","/Users/mirouflyer/mirou-workspace/DemoTestFramework/Generic/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/mirouflyer/mirou-workspace/DemoTestFramework/Generic/driver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.navigate().to("https://www.google.com/");
