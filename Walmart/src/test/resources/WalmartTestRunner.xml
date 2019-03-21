@@ -13,7 +13,11 @@
 
     <test name = "Walmart Home">
         <classes>
-            <class name="title.TitleTest"/>
+            <!--<class name="title.TitleTest"/>-->
+           <!--<class name="menu.MenuListTest"/>-->
+            <!--<class name="search.ElementSearch"/>-->
+            <!--<class name="click.ClickTest"/>-->
+            <class name="signIn.SignIn"/>
 
         </classes>
     </test>
