@@ -25,7 +25,7 @@ public class ConnectToSqlDB {
     //This method is used to get  the propperties from secret.properties file (driver url,database name ,username, password)
     public static Properties loadProperties() throws IOException {
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("/Users/mirouflyer/mirou-workspace/ThirdAutomationTest/Generic/src/secret.properties");
+        InputStream ism = new FileInputStream("C:\\Users\\Youcef\\Desktop\\Final Project Web Automation 20019\\demo_framework\\Generic\\src\\secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
