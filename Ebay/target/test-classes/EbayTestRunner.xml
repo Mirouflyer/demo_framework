@@ -13,9 +13,9 @@
 
     <test name = "#ebay Home">
         <classes>
-            <class name="title.EbayHome"/>
+            <!--<class name="title.EbayHome"/>-->
 
-           <!--/ <class name="search.SearchTest"/>-->
+            <class name="search.SearchTest"/>
             <!--<class name="searchPageTest.SearchTest2"/>-->
             <!--<class name="menu.MenuTest"/>-->
         </classes>

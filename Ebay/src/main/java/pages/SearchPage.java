@@ -14,7 +14,7 @@ import java.util.List;
 public class SearchPage {
     DataBase dataBase = new DataBase();
 
-    @FindBy(how = How.CSS, using = ".gh-tb-ui-autocomplete-input") // Search Bar
+    @FindBy(how = How.CSS, using = "#gh-ac") // Search Bar
     public static WebElement searchInputWebElement;
 
     @FindBy(how = How.CSS, using = "#gh-btn") // Search Buttom

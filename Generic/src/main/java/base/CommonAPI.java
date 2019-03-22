@@ -125,4 +125,10 @@ public class CommonAPI {
 
         driver.findElement(By.xpath(locator)).click();
     }
+
+
+    public void findElementByxPath(String loctor){
+        driver.findElement(By.xpath(loctor)).click();
+    }
+    //     //a[@title='Advanced Search']
 }
