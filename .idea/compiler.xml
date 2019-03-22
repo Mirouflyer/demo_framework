@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
         <module name="Walmart" />
+        <module name="Youtube" />
       </profile>
     </annotationProcessing>
   </component>

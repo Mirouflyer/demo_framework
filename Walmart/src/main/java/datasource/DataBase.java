@@ -12,7 +12,7 @@ public class DataBase {
     static ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
     public static void insertDataInDB(){
         List<String> list = getItemValue();
-        connectToSqlDB.insertDataFromArrayListToSqlTable(list,"searchList","items");
+        connectToSqlDB.insertDataFromArrayListToSqlTable(list,"WalmartItemList","items");
 
     }
 
@@ -32,19 +32,19 @@ public class DataBase {
 
     public List<String> getItemListFromDB() throws Exception, IOException, SQLException, ClassNotFoundException{
         List<String> list = new ArrayList<String>();
-        list = connectToSqlDB.readDataBase("searchList","items");
+        list = connectToSqlDB.readDataBase("WalmartItemList","items");
         return list ;
     }
 
     public static void main(String[] args) throws  Exception, IOException, SQLException, ClassNotFoundException {
-       // insertDataInDB();
+        insertDataInDB();
 
 
-        ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-        List<String> list = connectToSqlDB.readDataBase("WalmartItemList","items");
-        for(String st:list){
-            System.out.println(st);
-        }
+//        ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+//        List<String> list = connectToSqlDB.readDataBase("WalmartItemList","items");
+//        for(String st:list){
+//            System.out.println(st);
+//        }
    }
 
 }

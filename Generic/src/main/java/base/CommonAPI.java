@@ -37,6 +37,10 @@ public class CommonAPI {
 
 
 
+    public void typeCSS(String locator, String keyword){
+        driver.findElement(By.cssSelector(locator)).sendKeys(keyword);
+    }
+
     public void typeCSSTab(String locator, String keyword){
         driver.findElement(By.cssSelector(locator)).sendKeys(keyword,Keys.TAB);
     }
@@ -90,4 +94,8 @@ public class CommonAPI {
         driver.findElement(By.xpath(locator)).click();
 
     }
+
+
+
+
 }

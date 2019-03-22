@@ -10,4 +10,5 @@ public class ClickTest extends CommonAPI {
         clickOnCss(".TempoCategoryTile-overlayLink.u-focusTile");
         Thread.sleep(5000);
     }
+
 }

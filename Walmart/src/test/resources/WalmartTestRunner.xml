@@ -17,7 +17,10 @@
            <!--<class name="menu.MenuListTest"/>-->
             <!--<class name="search.ElementSearch"/>-->
             <!--<class name="click.ClickTest"/>-->
-            <class name="signIn.SignIn"/>
+            <!--<class name="signIn.SignIn"/>-->
+            <!--<class name="searchForItems.SearchItems"/>-->
+            <!--<class name="clickButton.ClickButton"/>-->
+
 
         </classes>
     </test>

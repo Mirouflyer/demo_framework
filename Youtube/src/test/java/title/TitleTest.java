@@ -9,6 +9,6 @@ public class TitleTest extends CommonAPI {
     @Test
     public void titleTest(){
         String title = driver.getTitle();
-        Assert.assertEquals(title,"Walmart.com | Save Money. Live Better.");
+        Assert.assertEquals(title,"YouTube");
     }
 }
