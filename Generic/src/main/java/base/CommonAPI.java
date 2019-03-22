@@ -1,11 +1,14 @@
 package base;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import java.sql.SQLOutput;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
@@ -26,4 +29,56 @@ public class CommonAPI {
     public void cleanUO(){
         driver.close();
     }
+
+
+    public void findElementById(String locator, String info){
+        driver.findElement(By.id(locator)).sendKeys(info, Keys.TAB);
+    }
+    public void findElementByClassName(String locator, String info){
+        driver.findElement(By.className(locator)).sendKeys(info,Keys.ENTER);
+    }
+    public void findElementByCssSelector(String locator, String info){
+        driver.findElement(By.cssSelector(locator)).sendKeys(info,Keys.ENTER);
+    }
+    public void findElementByXpath(String selector, String info){
+        driver.findElement(By.xpath(selector)).sendKeys(info,Keys.ENTER);
+    }
+
+    public void clickOnElementById(String locator){
+        driver.findElement(By.id(locator)).click();
+    }
+    public void clickOnElementByCss(String location){
+    }
+
+    public void tryClickOnElement (String locator){
+        try{
+            driver.findElement(By.cssSelector(locator)).click();
+        }catch (Exception ex1){
+            try{
+            System.out.println("using css was not successful");
+            driver.findElement(By.name(locator)).click();
+        }catch (Exception ex2){
+            try{
+                System.out.println("using name was not successful");
+                driver.findElement(By.xpath(locator)).click();
+            }catch (Exception ex3){
+                System.out.println("using xpath was not successful");
+                driver.findElement(By.id(locator)).click();
+            }
+            }
+        }
+    }
+    public void clickOnCss(String selector){
+        driver.findElement(By.cssSelector(selector)).click();
+    }
+
+    public void clickOnWebElementXpath(String locator){
+        driver.findElement(By.xpath(locator)).click();
+    }
+
+
+
+
+
+
 }

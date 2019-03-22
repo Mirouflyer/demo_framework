@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>CapitalOne</artifactId>
+    <artifactId>CNN</artifactId>
     <dependencies>
         <dependency>
             <groupId>Demo.Test.Framework</groupId>
@@ -18,7 +18,7 @@
         </dependency>
     </dependencies>
 
-<!--//the next build test is used to run our test from Terminal.-->
+    <!--//the next build test is used to run our test from Terminal.-->
     <build>
         <plugins>
             <plugin>
@@ -35,11 +35,13 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>target/test-classes/CapitalOneTestRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>target/test-classes/CnnOneTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+
 
 </project>

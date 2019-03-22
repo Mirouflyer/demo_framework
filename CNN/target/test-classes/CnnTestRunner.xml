@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="CapitalOne Automation Script " parallel="false">
+<suite name="CNN Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -9,17 +9,16 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="30.0"/>
-    <parameter name="url" value="https://www.capitalone.com/"/>
+    <parameter name="url" value="https://www.cnn.com/?refresh=1"/>
 
     <test name = "CapitalOne Home">
         <classes>
 
-            <!--<class name="title.TitleSearch"/>-->
-            <!--<class name="logIn.LogInTest"></class>-->
-            <!--<class name="search.SearchTest"></class>-->
+
             <!--<class name="clickOnWebElement.Click1"></class>-->
-            <!--<class name="clickOnWebElement.Click1"></class>-->
-            <class name="clickOnWebElement.Click2"></class>
+            <!--<class name="clickOnWebElement.Click2"></class>-->
+            <class name="search.Search1"></class>
+
 
 
         </classes>

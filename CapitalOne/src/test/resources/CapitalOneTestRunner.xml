@@ -14,8 +14,12 @@
     <test name = "CapitalOne Home">
         <classes>
 
-
-            <class name="title.TitleSearch"/>
+            <!--<class name="title.TitleSearch"/>-->
+            <!--<class name="logIn.LogInTest"></class>-->
+            <!--<class name="search.SearchTest"></class>-->
+            <!--<class name="clickOnWebElement.Click1"></class>-->
+            <!--<class name="clickOnWebElement.Click1"></class>-->
+            <class name="clickOnWebElement.Click2"></class>
 
 
         </classes>

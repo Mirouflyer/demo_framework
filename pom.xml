@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>CapitalOne</module>
+        <module>CNN</module>
     </modules>
 
     <dependencyManagement>
