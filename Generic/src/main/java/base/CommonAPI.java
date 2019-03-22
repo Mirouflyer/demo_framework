@@ -22,7 +22,7 @@ public class CommonAPI {
     public void setUp(String url) {
 
 
-        System.setProperty("webdriver.chrome.driver", "/Users/mirouflyer/Desktop/teamframework/demo_framework/Generic/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.navigate().to(url);
@@ -36,26 +36,34 @@ public class CommonAPI {
     }
 
 
-
+    //type on a webElement by cssSelector .
     public void typeCSS(String locator, String keyword){
         driver.findElement(By.cssSelector(locator)).sendKeys(keyword);
     }
-
+    //type on a webElement by cssSelector and send Tab key.
     public void typeCSSTab(String locator, String keyword){
         driver.findElement(By.cssSelector(locator)).sendKeys(keyword,Keys.TAB);
     }
 
-
+    //type on a webElement by id and send Enter key.
     public void typeOnID(String locator, String keyword) {
         driver.findElement(By.id(locator)).sendKeys(keyword, Keys.ENTER);
     }
 
+    //type on a webElement cssSelector id and send Enter key.
     public void typeOnCSS(String locator, String keyword) {
         driver.findElement(By.cssSelector(locator)).sendKeys(keyword, Keys.ENTER);
     }
 
+    //click on a webElement by cssSelector
     public void clickOnCss(String locator) {
+
         driver.findElement(By.cssSelector(locator)).click();
+    }
+    //click on a webElement by xPath
+    public void clickOnXpath(String locator) {
+        driver.findElement(By.xpath(locator)).click();
+
     }
 
     //get the text from the webElements of the arrayList
@@ -90,9 +98,16 @@ public class CommonAPI {
         }
     }
 
-    public void clickOnXpath(String locator) {
-        driver.findElement(By.xpath(locator)).click();
 
+     //get text by cssSelector
+    public String getTextByCss(String locator) {
+        String st = driver.findElement(By.cssSelector(locator)).getText();
+        return st;
+    }
+    //get text by xPath
+    public String getTextByXpath(String locator) {
+        String st = driver.findElement(By.xpath(locator)).getText();
+        return st;
     }
 
 

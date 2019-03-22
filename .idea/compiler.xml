@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
         <module name="Walmart" />
-        <module name="Youtube" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Youtube" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
