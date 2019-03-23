@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -20,7 +21,7 @@ public class CommonAPI {
     @Parameters({"url"})
     @BeforeMethod
     public void setUp(String url) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Youcef\\Desktop\\Final Project Web Automation 20019\\demo_framework\\Generic\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "..\\Generic\\driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.navigate().to(url);
@@ -82,7 +83,10 @@ public class CommonAPI {
     public static List<String> getTextFromWebElements(String locator) {
 
         List<WebElement> element = new ArrayList<WebElement>();
+
+
         List<String> text = new ArrayList<String>();
+
         element = driver.findElements(By.cssSelector(locator));
         for (WebElement web : element) {
             String st = web.getText();
@@ -130,5 +134,19 @@ public class CommonAPI {
     public void findElementByxPath(String loctor){
         driver.findElement(By.xpath(loctor)).click();
     }
+
+
+    public void checkBox(String locator) throws InterruptedException {
+        List<WebElement> searchIncludingBox = new ArrayList<WebElement>();
+
+        for (WebElement element : searchIncludingBox) {
+            driver.findElement(By.xpath(locator)).click();
+                Thread.sleep(1500);
+                element.click();
+                Thread.sleep(1500);
+            }
+        }
+
+    }
     //     //a[@title='Advanced Search']
-}
+

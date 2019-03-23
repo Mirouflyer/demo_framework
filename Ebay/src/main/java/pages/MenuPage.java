@@ -3,6 +3,7 @@ package pages;
 import base.CommonAPI;
 import database.ConnectToSqlDB;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
@@ -29,4 +30,14 @@ public class MenuPage {
 
         Assert.assertEquals(menuData,actualData);
     }
+
+
+
+
+//    public  void checkBoxtest(){
+//        @FindBy(xpath = "//fieldset[2]//label");
+//        List<>
+//
+//
+//    }
 }

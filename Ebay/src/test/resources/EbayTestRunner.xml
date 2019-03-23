@@ -13,10 +13,11 @@
 
     <test name = "#ebay Home">
         <classes>
-            <class name="title.EbayHome"/>
+            <!--<class name="title.EbayHome"/>-->
             <class name="search.SearchTest"/>
-            <class name="pageTest.SearchPageTest"/>
-            <class name="menu.MenuTest"/>
+            <!--<class name="pageTest.SearchPageTest"/>-->
+            <!--<class name="menu.MenuTest"/>-->
+            <!--<class name="checkElementsTest.ElementListTest"></class>-->
         </classes>
     </test>
 
