@@ -100,13 +100,15 @@ public class CommonAPI {
 
     // Te methods used to get Signed IN
 
-    public void clickOnSingIn (String locator){
+    public void clickOnSingIn(String locator) {
         driver.findElement(By.id(locator)).click();
     }
+
     public void findElement(String locator, String info) {
         driver.findElement(By.id(locator)).sendKeys(info, Keys.TAB); // username
 
     }
+
     public void findElement2(String locator, String info) {
 
         driver.findElement(By.id(locator)).sendKeys(info, Keys.TAB); // password
@@ -116,37 +118,34 @@ public class CommonAPI {
 
         driver.findElement(By.id(locator)).click(); // click sign im
     }
+    public void clickButtonByXpath(String locator) {
+
+        driver.findElement(By.xpath(locator)).click(); // click sign im
+
+    }
 
 
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
     }
+
     public void logOut1(String locator) {
 
         driver.findElement(By.id(locator)).click(); // click on Sign Out
     }
+
     public void logOut2(String locator) { // Sign out
 
         driver.findElement(By.xpath(locator)).click();
     }
 
 
-    public void findElementByxPath(String loctor){
+    public void findElementByxPath(String loctor) {
         driver.findElement(By.xpath(loctor)).click();
     }
 
 
-    public void checkBox(String locator) throws InterruptedException {
-        List<WebElement> searchIncludingBox = new ArrayList<WebElement>();
-
-        for (WebElement element : searchIncludingBox) {
-            driver.findElement(By.xpath(locator)).click();
-                Thread.sleep(1500);
-                element.click();
-                Thread.sleep(1500);
-            }
-        }
 
     }
-    //     //a[@title='Advanced Search']
+
 
