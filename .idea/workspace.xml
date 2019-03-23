@@ -2,7 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0df169-76ef-4ea0-99c8-4b9e71efb290" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CNN/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/main/java/listElements/FindElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/main/java/serch/SearchXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/java/clickOnWebElement/Click1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/java/clickOnWebElement/Click2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/java/clickOnWebElement/Click3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/java/clickOnWebElement/Click4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/java/listElements/TestListElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/java/search/Search1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/classes/META-INF/CNN.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/classes/listElements/FindElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/classes/serch/SearchXpath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/test-classes/CnnTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/test-classes/META-INF/CNN.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/test-classes/clickOnWebElement/Click1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/test-classes/clickOnWebElement/Click2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/test-classes/clickOnWebElement/Click3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/test-classes/clickOnWebElement/Click4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/test-classes/listElements/TestListElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/target/test-classes/search/Search1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/src/main/java/click/ClickOnWebElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/src/test/java/clickOnWebElement/Click1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/src/test/java/clickOnWebElement/Click2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/src/test/java/logIn/LogInTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/src/test/java/search/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/src/test/java/title/TitleSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/src/test/resources/CapitalOneTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/target/classes/META-INF/CapitalOne.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/target/classes/click/ClickOnWebElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/target/test-classes/CapitalOneTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/target/test-classes/clickOnWebElement/Click1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/target/test-classes/clickOnWebElement/Click2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/target/test-classes/logIn/LogInTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/target/test-classes/search/SearchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapitalOne/target/test-classes/title/TitleSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/database/ConnectToSqlDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="306">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -43,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="369">
               <caret line="88" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,11 +96,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNN/src/main/java/listElements/FindElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="9" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="369">
+              <caret line="22" column="5" selection-start-line="9" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,8 +224,8 @@
         <option value="$PROJECT_DIR$/CNN/src/main/java/listElements/ReadList.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/CNN/src/test/java/listElements/TestListElements.java" />
-        <option value="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" />
         <option value="$PROJECT_DIR$/CNN/src/main/java/listElements/FindElements.java" />
+        <option value="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -216,8 +265,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,6 +332,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="CNN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="CNN" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,8 +477,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25050506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25454545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -573,16 +637,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state relative-caret-position="369">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -648,11 +705,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/src/main/java/listElements/FindElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="9" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="369">
+          <caret line="22" column="5" selection-start-line="9" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
