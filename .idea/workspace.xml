@@ -3,32 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ec0df169-76ef-4ea0-99c8-4b9e71efb290" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Walmart/target/test-classes/WalmartTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Walmart/target/test-classes/WalmartTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Walmart/target/test-classes/mouse/MouseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Walmart/target/test-classes/title/TitleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Walmart/target/test-classes/title/TitleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/search/SearchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/title/TitleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/Youtube-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/search/SearchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/title/TitleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Walmart/target/" />
     <ignored path="$PROJECT_DIR$/Youtube/target/" />
+    <ignored path="$PROJECT_DIR$/LinkedIn/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +23,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="360">
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#957#958#0" expanded="true" />
@@ -51,11 +45,43 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="41" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/pages/RadioBtn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/getText/GetTextTest.java">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/title/TitleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
+            <state relative-caret-position="165">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,22 +90,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/pages/MenuPage.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/database/ConnectToSqlDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/clickButton/ClickButton.java">
+        <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/radiobtn/RadioBtnTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,50 +113,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state>
+              <caret selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/pages/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/LinkedInTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/search/ElementSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/searchForItems/SearchItems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -155,7 +145,6 @@
       <list>
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Walmart/src/test/java/search/Search.java" />
         <option value="$PROJECT_DIR$/Walmart/src/test/java/searchList/SearchList.java" />
         <option value="$PROJECT_DIR$/Walmart/src/test/java/menu/SearchList.java" />
@@ -179,8 +168,16 @@
         <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/search/SearchTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml" />
         <option value="$PROJECT_DIR$/Walmart/src/test/java/getText/GetTextTest.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/main/java/pages/PurchasePage.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/test/java/radiobtn/RadioBtnTest.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/main/java/pages/RadioBtn.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/database/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/LinkedInTestRunner.xml" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/java/title/TitleTest.java" />
       </list>
     </option>
   </component>
@@ -225,10 +222,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="972" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="116" />
+    <option name="y" value="24" />
+    <option name="width" value="1286" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -250,33 +248,70 @@
             <path>
               <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="title" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo_framework" type="b2602c69:ProjectViewProjectNode" />
@@ -293,22 +328,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553293582838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553301554209" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LinkedIn/src/test" />
+      <recent name="$PROJECT_DIR$/Youtube/src/test" />
+      <recent name="$PROJECT_DIR$/Generic/driver" />
+      <recent name="$PROJECT_DIR$/Walmart/src/test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Generic/driver" />
       <recent name="$PROJECT_DIR$/Generic/mysql driver" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java/database" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Youtube/src/test" />
-      <recent name="$PROJECT_DIR$/Generic/driver" />
-      <recent name="$PROJECT_DIR$/Walmart/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/mirouflyer/Desktop/teamframework/demo_framework/LinkedIn/src/test/resources/LinkedInTestRunner.xml">
     <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datasource.DataBase" />
       <module name="Walmart" />
@@ -337,32 +373,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetWebElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioBtnTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Walmart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webelements.*" />
+          <option name="PATTERN" value="radiobtn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webelements" />
-      <option name="MAIN_CLASS_NAME" value="webelements.GetWebElement" />
+      <option name="PACKAGE_NAME" value="radiobtn" />
+      <option name="MAIN_CLASS_NAME" value="radiobtn.RadioBtnTest" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Walmart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="signIn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="signIn" />
-      <option name="MAIN_CLASS_NAME" value="signIn.SignIn" />
+    <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/LinkedIn/src/test/resources/LinkedInTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinkedIn" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/LinkedIn/src/test/resources/LinkedInTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -391,11 +421,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/mirouflyer/Desktop/teamframework/demo_framework/LinkedIn/src/test/resources/LinkedInTestRunner.xml" />
         <item itemvalue="TestNG./Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" />
+        <item itemvalue="TestNG.RadioBtnTest" />
         <item itemvalue="TestNG./Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" />
         <item itemvalue="Application.DataBase" />
-        <item itemvalue="TestNG.SignIn" />
-        <item itemvalue="TestNG.GetWebElement" />
       </list>
     </recent_temporary>
   </component>
@@ -413,42 +443,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.21 at 20h 38m 01s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.21 at 20h 42m 58s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.21 at 20h 44m 12s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.21 at 20h 44m 58s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.21 at 20h 45m 56s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.21 at 20h 46m 29s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.21 at 20h 47m 08s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.21 at 20h 47m 36s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 17h 22m 41s.xml">
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 05m 16s.xml">
       <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 18h 19m 39s.xml">
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 06m 15s.xml">
       <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 08m 01s.xml">
+      <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 09m 22s.xml">
+      <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 20m 14s.xml">
+      <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 25m 34s.xml">
+      <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 26m 07s.xml">
+      <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 28m 24s.xml">
+      <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mirouflyer_mirou-workspace_teamframework_DemoTestFramework_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.03.22 at 20h 31m 05s.xml">
+      <configuration name="/Users/mirouflyer/mirou-workspace/teamframework/DemoTestFramework/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mirouflyer_Desktop_teamframework_demo_framework_LinkedIn_src_test_resources_LinkedInTestRunner_xml - 2019.03.22 at 20h 38m 33s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/teamframework/demo_framework/LinkedIn/src/test/resources/LinkedInTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="972" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1590909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1590909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -457,15 +487,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882413" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2950058" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29556075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44547564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329849" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329849" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3263647" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32476637" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -481,20 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/database/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -557,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" selection-start-line="42" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -591,20 +600,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/clickButton/ClickButton.java">
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/search/SearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/search/SearchTest.java">
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/getText/GetTextTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/clickButton/ClickButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -621,10 +640,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/searchForItems/SearchItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="401">
+          <caret line="31" column="5" selection-start-line="29" selection-start-column="3" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
@@ -647,20 +676,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/searchForItems/SearchItems.java">
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/radiobtn/RadioBtnTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/pages/RadioBtn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="360">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#957#958#0" expanded="true" />
@@ -669,17 +710,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/database/ConnectToSqlDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="297">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/getText/GetTextTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
+        <state relative-caret-position="192">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/LinkedInTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/title/TitleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -738,7 +814,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Walmart</last-edited>
+          <last-edited>LinkedIn</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

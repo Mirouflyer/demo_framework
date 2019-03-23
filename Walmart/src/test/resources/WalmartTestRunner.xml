@@ -18,9 +18,10 @@
         <!--<class name="search.ElementSearch"/>-->
         <!--<class name="click.ClickTest"/>-->
         <!--<class name="signIn.SignIn"/>-->
-        <!--<class name="searchForItems.SearchItems"/>-->
+        <class name="searchForItems.SearchItems"/>
         <!--<class name="clickButton.ClickButton"/>-->
-        <class name="getText.GetTextTest"/>
+        <!--<class name="getText.GetTextTest"/>-->
+        <!--<class name="radiobtn.RadioBtnTest"/>-->
 
     </classes>
 </test>
