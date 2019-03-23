@@ -22,9 +22,9 @@ public class CommonAPI {
     public void setUp(String url) {
 
         try{
-            System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
-        }catch (Exception exp){
             System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
+        }catch (Exception exp){
+            System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
         }
 
 
