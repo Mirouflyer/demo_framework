@@ -3,21 +3,24 @@ package base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import java.sql.SQLOutput;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
 
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
     @Parameters({"url"})
     @BeforeMethod
     public void setUp(String url){
-        System.setProperty("webdriver.chrome.driver","D:\\demo_framework\\Generic\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","..\\Generic\\driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.navigate().to(url);
@@ -71,14 +74,23 @@ public class CommonAPI {
     public void clickOnCss(String selector){
         driver.findElement(By.cssSelector(selector)).click();
     }
+    public void clickOnName(String locator){
+        driver.findElement(By.className(locator));
+    }
 
     public void clickOnWebElementXpath(String locator){
+
         driver.findElement(By.xpath(locator)).click();
     }
 
-
-
-
-
-
+    public void navigateBack() {
+        driver.navigate().back();
+    }
 }
+
+
+
+
+
+
+
